@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ipz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="modal-window">
+        <div class="modal-message">
+            <p>Демянюк Роман, КСД-31, варіант 7
+            На плоскости заданы три непересекающихся круга и множество точек. Проверить, есть ли круг, в который попадает более одной точки из заданного множества.
+            </p>
+            <span id="close">&#10006;</span>
+        </div>
+    </div>
+    <label for="one">1st ring radius</label>
+    <input type="number" class="fields" name="one" placeholder="0-150" id="circle1" value="" min="0" max="150" step="10">
+    <label for="two">2nd ring radius</label>
+    <input type="number" class="fields" name="two" placeholder="0-150" id="circle2" value="" min="0" max="150" step="10">
+    <label for="three">3rd ring radius</label>
+    <input type="number" class="fields" name="three" placeholder="0-150" id="circle3" value="" min="0" max="150" step="10">
+    <label for="dot">Quantity of dots</label>
+    <input type="number" class="fields" name="dot" placeholder="0-" id="dots" value="" min="0" value="20">
+    <button id="confirm">Calculate</button>
+    <button id="help">?</button>
+    <p id="result"></p>
+    <canvas id="holst" width="1300" height="600"></canvas>
+    <script src="main.js"></script>
+</body>
+</html>

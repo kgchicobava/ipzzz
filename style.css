@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+}
+
+canvas {
+    /* height: 600px;
+    width: 99%; */
+    border: 1px solid black;
+}
+
+input{
+    height: 30px;
+    width: 70px;
+    font-family: verdana;
+}
+label {
+    font-family: verdana;
+    font-size: 20px;
+}
+
+.fields {
+    font-family: verdana;
+    font-size: 20px;
+    margin: 40px 20px 30px 0;
+}
+
+#confirm, #help {
+    height: 60px;
+    width: 150px;
+    border-radius: 40px;
+    background-color: red;
+    border: 2px solid black;
+    font-family: verdana;
+    font-size: 20px;
+}
+
+.modal-window {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    background-color: rgba(15, 14, 14, .4);
+    display: none;
+}
+
+.modal-message {
+    text-align: center;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 200px;
+    width: 600px;
+    margin: auto;
+    margin-top: 200px;
+    background-color: white;
+}
+
+p {
+    padding: 30px 30px 0 30px;
+}
+
+span {
+    cursor: pointer;
+}
+
+#result {
+    margin-top: -30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
